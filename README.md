@@ -19,5 +19,3 @@
 - branching
 - add
 - commit
-
-I am changing 
