@@ -45,22 +45,33 @@
 .buttonOneBackground {
     background-color: #1e1e1ed0;
     background-image: url("../images/Background1.png");
+    animation: open 0.6s forwards ease-in-out;  
 }
 
 .buttonTwoBackground {
     background-color: #1e1e1ed0;
     background-image: url("../images/Background2.png");
+    animation: open 0.6s forwards ease-in-out;
 }
 
-.buttonOneBackgroundShow {
-    opacity: 1;    
-    transition: all 0.4s ease-in-out;
+.buttonOneBackgroundShow {      
+    /* animation: open 0.6s forwards ease-in-out; */
 }
 
 .buttonTwoBackgroundShow {
-    opacity: 1;    
-    transition: all 0.4s ease-in-out;
+    /* animation: open 0.6s forwards ease-in-out; */
 }
+
+@keyframes open {
+    0% {
+      opacity: 0.8;     
+    }  
+    100% {
+      opacity: 1;      
+    }
+  }
+
+
 
 .logo {
     width: 200px;
